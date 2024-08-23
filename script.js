@@ -16,6 +16,18 @@ document.addEventListener('keypress', function (e) {
 
 })
 
+// document.querySelectorAll('.drum').forEach(button => {
+//     button.addEventListener('touchstart', () => {
+//       let buttonInnerHtml = button.innerHTML;
+//       makeSound(buttonInnerHtml);
+//       console.log("sound...");
+//       buttonAnimation(buttonInnerHtml);
+//         console.log("Animation..");
+        
+//     });
+//   });
+  
+
 function makeSound(key) {
     switch (key) {
         case "w":
